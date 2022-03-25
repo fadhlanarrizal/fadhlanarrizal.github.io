@@ -1,0 +1,186 @@
+* {
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    color: white;
+    background-color: black;
+    margin: 0;
+}
+
+header {
+    text-align: center;
+
+}
+
+.navbg {
+    background-color: #00b4d8;
+}
+
+header ul li {
+    display: inline-block;
+}
+
+header ul li a {
+    padding: 25px 20px;
+    display: inline-block;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+header ul li a:hover {
+    background-color: #caf0f8;
+    color: black;
+    opacity: 0.2;
+    text-decoration: none;
+    padding: 25px 20px;
+    border-radius: 5px;
+}
+
+.main {
+    background-color: #00b4d8;
+    float: left;
+    padding: 10px 15px 10px 100px;
+    margin-top: 25px;
+}
+
+/* page 1 foto dan nama */
+
+.pp {
+    margin: 100px;
+    margin-left: 220px;
+    width: 30%;
+    border-radius: 15px;
+    float: left;
+}
+
+.tagname {
+    position: relative;
+    padding-top: 290px;
+    letter-spacing: 2px;
+}
+
+h2 {
+    text-align: center;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+.active {
+    background-color: #caf0f8;
+    color: black;
+    border-radius: 5px;
+}
+
+footer {
+    margin-top: 100px;
+}
+
+.row {
+    padding: 120px 500px;
+}
+
+.col {
+    display: inline-block;
+    text-align: left;
+    width: 400px;
+    height: 400px;
+    margin: 20px;
+    border: 1px solid whitesmoke;
+    align-items: center;
+    justify-content: center;
+}
+
+.column {
+    text-align: center;
+    display: inline;
+}
+
+.title {
+    margin-top: 15px;
+    text-align: left;
+}
+.text-card {
+    margin-top: 5px;
+}
+
+.date {
+    margin-top: 5px;
+    font-size: small;
+    color: darkgray;
+    line-height: 0.5cm;
+}
+
+.desc-work {
+    margin-top: 10px;
+    font-weight: 600;
+    color: darkgray;
+}
+
+.teks {
+    padding-left: 10px;
+}
+
+.fab {
+    margin-top: 15px;
+    padding: 10px;
+}
+
+div i:hover {
+    background-color: #00b4d8;
+    text-decoration: none;
+    border-radius: 50px;
+}
+
+.brands {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+
+/* country list */
+
+input {
+    color: black;
+}
+
+section {
+    text-align: center;
+    display: inline;
+}
+
+.order {
+    margin-bottom: 40px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+}
+.form-service {
+    margin-top: 150px ;
+    text-align: center;
+}
+input {
+    width: 10%;
+    padding:10px;
+    border-radius:10px;
+}
+
+select {
+    margin-top: 5px;
+    width: 10%;
+    padding: 10px;
+    border-radius:10px;
+}
+
+label {
+    margin-left: 10px;
+}
+textarea {
+    margin-top: 10px;
+    text-align: center;
+}
